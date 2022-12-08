@@ -1,0 +1,43 @@
+{
+  "name": "server",
+  "version": "0.8.0",
+  "description": "backends nodejs typecript ddd by wasd copyshop",
+  "main": "index.js",
+  "author": "Facundo Bustos Goaincohea",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "5.1.0",
+    "cors": "2.8.5",
+    "debug": "4.3.4",
+    "dotenv": "16.0.3",
+    "express": "4.18.2",
+    "express-winston": "4.2.0",
+    "joi": "17.6.4",
+    "jsonwebtoken": "8.5.1",
+    "mysql2": "2.3.3",
+    "sequelize": "6.25.3",
+    "uuid": "9.0.0",
+    "uuid-validate": "0.0.3",
+    "winston": "3.8.2"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "5.0.0",
+    "@types/cors": "2.8.12",
+    "@types/debug": "4.1.7",
+    "@types/express": "4.17.14",
+    "@types/joi": "17.2.3",
+    "@types/jsonwebtoken": "8.5.9",
+    "@types/node": "18.11.3",
+    "@types/uuid": "8.3.4",
+    "@types/uuid-validate": "0.0.1",
+    "eslint": "8.25.0",
+    "eslint-plugin-json": "3.1.0",
+    "prettier": "2.7.1",
+    "source-map-support": "0.5.21",
+    "ts-node-dev": "2.0.0",
+    "typescript": "4.8.4"
+  },
+  "scripts": {
+    "start": "tsnd --respawn ./src/index.ts"
+  }
+}
